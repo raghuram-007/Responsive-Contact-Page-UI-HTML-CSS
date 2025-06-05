@@ -1,0 +1,172 @@
+ .detail {
+     display: flex;
+     flex-direction: column;
+     row-gap: 10px;
+     width: 450px;
+     text-transform: capitalize;
+     margin-left: 570px;
+     margin-top: -50px;
+     position: relative;
+     top: -650px;
+ }
+
+ .container {
+     width: 1350px;
+     border: 2px solid black;
+     padding: 24px;
+     height: 650px;
+     backdrop-filter: blur(10px);
+     border-radius: 8px;
+     box-shadow: 0 0 7px black;
+     background-color: #0C848F;
+
+ }
+
+ input {
+     padding: 14px;
+     width: 49vw;
+ }
+
+ button {
+     padding: 13px;
+     width: 51vw;
+     background-color: dodgerblue;
+     color: white;
+     font-weight: bolder;
+     font-size: larger;
+ }
+
+ ::placeholder {
+     text-transform: capitalize;
+ }
+
+ #cancel {
+     position: relative;
+     left: 770px;
+     border-radius: 4px;
+     top: 10px;
+     background-color: white;
+     color: black;
+     padding: 10px;
+     width: 10px;
+     font-size: medium;
+
+     top: 29px;
+ }
+
+ body {
+     overflow-x: hidden;
+ }
+
+ .image {
+     margin-right: 450px;
+     width: 250px;
+     background-image: url(istockphoto-541835638-612x612.jpg);
+     height: 650px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 550px;
+     text-align: center;
+ }
+
+ i {
+     position: relative;
+     top: 560px;
+     padding: 10px;
+     font-size: x-large;
+
+ }
+
+ body {
+     padding: 80px;
+     background-color: #0E89CB;
+     color: white;
+     margin-top: 55px;
+
+ }
+
+ h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ input:focus {
+     transform: translateY(-2px);
+     transition: all ease-in-out 0.8s;
+ }
+
+ input:focus::placeholder {
+     transform: translateY(-7px);
+     transition: all ease-in-out 0.6s;
+ }
+
+ textarea {
+     height: 222px;
+ }
+
+ @media only screen and (max-width: 768px) {
+     .container {
+         width: 140%;
+         padding: 26px;
+         height: auto;
+         flex-direction: column;
+         align-items: center;
+         position: relative;
+         left: -30px;
+
+
+     }
+
+     body {
+         margin-right: 50px;
+     }
+
+     .image {
+         width: 100%;
+         margin: 0 auto;
+         height: 300px;
+         background-size: cover;
+         background-position: center;
+         /* position: relative;
+        top:-350px */
+     }
+
+     .detail {
+         width: 100%;
+         margin: 0 auto;
+         position: static;
+         top: 0;
+         margin-top: 20px;
+     }
+
+     input[type="text"],
+     input[type="email"],
+     input[type="number"],
+     textarea,
+     button {
+         width: 94% !important;
+         position: static !important;
+         left: 0 !important;
+         top: 0 !important;
+         margin-top: 10px;
+     }
+
+     #cancel {
+         position: absolute;
+         top: 10px;
+         right: 10px;
+         left: auto;
+         width: auto;
+     }
+
+     i.fab {
+         font-size: 24px;
+         margin: 0 8px;
+     }
+
+     i {
+         position: relative;
+         top: 210px;
+
+     }
+ }
