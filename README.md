@@ -79,20 +79,12 @@ D --> E[Open Pull Request]
 
 Contributions, ideas, and suggestions are always welcome! 🌍
 
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for more information.
-
----
 
 <div align="center">
+Crafted with ❤️ by Raghu Ram (https://github.com/raghuram-007)  
+UI/UX Designer & Frontend Developer
 
-Crafted with ❤️ by [YourName](https://github.com/yourusername)
-*UI/UX Designer & Frontend Developer*
-
-</div>
+</div> ```
 ```
 
 
